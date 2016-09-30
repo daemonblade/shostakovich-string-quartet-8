@@ -68,15 +68,15 @@ move_a_violin_a = \new Voice \relative c''
   aes2.( g4)
   r bes( aes g)
   r bes( aes g)
-  fis g bes, des
-  f2. fes4
-  ees2. c4
-  r c ees c
-  des2. c4
-  b1
+  fis( g bes, des)
+  f2.( fes4)
+  ees2.( c4)
+  r c( ees c)
+  des2.( c4)
+  b1\<
   c
-  d2 ees4 d
-  f ees d c
+  d2(\!\p\> ees4 d)
+  f( ees d c)\!
   c2 g4 g
   aes2 g
   g g8 r8 r4
@@ -190,8 +190,8 @@ move_a_violin_b = \new Voice \relative c'
   g2 g
   g1~\pp
   \repeat unfold 15 g~
-  g
-  g8 r8 r4 r2
+  g~\>
+  g8 r8\! r4 r2
   \repeat unfold 4 r1
   g1
   g
@@ -303,8 +303,8 @@ move_a_viola = \new Voice \relative c'
   c2 c
   c1~\pp
   \repeat unfold 15 c~
-  c
-  c8 r8 r4 r2
+  c~\>
+  c8 r8\! r4 r2
   \repeat unfold 4 r1
   c1
   \repeat unfold 15 c
@@ -401,12 +401,12 @@ move_a_cello = \new Voice \relative c
   c2 c
   c1~\pp
   \repeat unfold 15 c~
-  c
-  c8 r8 r4 r2
-  r d'
-  ees c
-  b1
-  b2. c4
+  c~\>
+  c8 r8\! r4 r2
+  r d'\pp\<
+  ees c\!
+  b1(~\p\>
+  b2. c4)\!
   c,1
   \repeat unfold 15 c
   c
