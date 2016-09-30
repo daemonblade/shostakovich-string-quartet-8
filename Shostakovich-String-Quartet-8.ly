@@ -60,7 +60,7 @@ move_a_violin_a = \new Voice \relative c''
 move_a_violin_b = \new Voice \relative c'
 {
   \set Staff.instrumentName = #"Violin 2"
-  r2 |
+  \partial 2 r2 |
   r1
   r1
   r2 d
@@ -94,7 +94,7 @@ move_a_viola = \new Voice \relative c'
 {
   \set Staff.instrumentName = #"Viola"
   \clef alto
-  r2 |
+  \partial 2 r2 |
   r1
   r2 a
   bes g
@@ -128,7 +128,7 @@ move_a_cello = \new Voice \relative c
 {
   \set Staff.instrumentName = #"Cello"
   \clef bass
-  d2 |
+  \partial 2 d2 |
   ees c
   b2. c4
   c1
@@ -165,6 +165,7 @@ move_a_cello = \new Voice \relative c
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \book
 {
+  \bookOutputSuffix "Score"
   \score
   {
     \new StaffGroup
@@ -174,5 +175,41 @@ move_a_cello = \new Voice \relative c
       \new Staff << \move_a_begin \move_a_viola >>
       \new Staff << \move_a_begin \move_a_cello >>
     >>
+  }
+}
+
+\book
+{
+  \bookOutputSuffix "Violin1"
+  \score
+  {
+    \new Staff << \move_a_begin \move_a_violin_a >>
+  }
+}
+
+\book
+{
+  \bookOutputSuffix "Violin2"
+  \score
+  {
+    \new Staff << \move_a_begin \move_a_violin_b >>
+  }
+}
+
+\book
+{
+  \bookOutputSuffix "Viola"
+  \score
+  {
+    \new Staff << \move_a_begin \move_a_viola >>
+  }
+}
+
+\book
+{
+  \bookOutputSuffix "Cello"
+  \score
+  {
+    \new Staff << \move_a_begin \move_a_cello >>
   }
 }
