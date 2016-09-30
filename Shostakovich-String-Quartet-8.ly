@@ -32,13 +32,13 @@ move_a_violin_a = \new Voice \relative c''
   r1
   r1
   r1
-  r2 g
+  r2 g\p
   aes f
-  e2. f4
+  e2.( f4)
   f1
-  ees
-  ees
-  ees4 ees8 r d'2
+  ees(
+  ees)(
+  ees4) ees8 r d'2
   ees c
   b1
   bes
@@ -163,15 +163,15 @@ move_a_violin_b = \new Voice \relative c'
   \partial 2 r2 |
   r1
   r1
-  r2 d
+  r2 d\p
   ees c
-  b2. c4
-  c1
-  c2 des
+  b2.( c4)
+  c1(
+  c2) des
   d1
-  c
-  c
-  c4 c8 r d2
+  c(
+  c)(
+  c4) c8 r d2
   ees c
   b1
   e2 ees
@@ -275,15 +275,15 @@ move_a_viola = \new Voice \relative c'
   \clef alto
   \partial 2 r2 |
   r1
-  r2 a
+  r2 a\p
   bes g
-  fis2. g4
-  g2 fis
-  f2 g
-  aes g
-  bes2 a
+  fis2.( g4)
+  g2( fis)
+  f2( g)
+  aes( g
+  bes2) a
   bes g
-  fis2. g4
+  fis2.( g4)
   g1
   g1
   g2 gis
@@ -371,18 +371,18 @@ move_a_cello = \new Voice \relative c
 {
   \set Staff.instrumentName = #"Cello"
   \clef bass
-  \partial 2 d2 |
+  \partial 2 d2\p |
   ees c
-  b2. c4
+  b2.( c4)
   c1
-  bes2 aes
+  bes2( aes)
   g1
   des
   c
   f
-  g
-  g2 a
-  aes4 aes8 r d,2
+  g(
+  g2) a(
+  aes4) aes8 r d,2
   ees c4 d
   e1
   ees2 ees
