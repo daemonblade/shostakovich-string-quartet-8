@@ -36,17 +36,17 @@ move_a_violin_a = \new Voice \relative c''
   aes f
   e2.( f4)
   f1
-  ees(
-  ees)(
-  ees4) ees8 r d'2
-  ees c
-  b1
-  bes
-  bes
-  bes2 c4 g
-  ees1
-  ees
-  ees2 e4. f8
+  ees~
+  ees~
+  ees4~\> ees8 r\! d'2\dim
+  ees\! c
+  b1~\sf
+  b~
+  b~
+  b2\< c4->-. g->-.\!
+  ees1~->\mp
+  ees~
+  ees2 e4.( f8)-.
   d1
   d2 d4. ees8
   c1
@@ -166,20 +166,20 @@ move_a_violin_b = \new Voice \relative c'
   r2 d\p
   ees c
   b2.( c4)
-  c1(
-  c2) des
+  c1~
+  c2 des
   d1
-  c(
-  c)(
-  c4) c8 r d2
-  ees c
-  b1
-  e2 ees
-  ees d
-  ees c
-  c4. d8 b4. c8
-  a4. ais8 b4. c8
-  cis r8 r4 r2
+  c~
+  c~
+  c4~\< c8 r\! d2\dim
+  ees\! c
+  b1\<\pp
+  e2(\!\> ees~\!
+  ees) d
+  ees\< c~\!
+  c4.\mp d8( b4.) c8
+  a4. ais8 b4. c8(
+  cis) r8 r4 r2
   r1
   r
   r
@@ -284,15 +284,15 @@ move_a_viola = \new Voice \relative c'
   bes2) a
   bes g
   fis2.( g4)
-  g1
-  g1
-  g2 gis
-  gis g
-  g fis
-  g1
-  fis
-  f2 f8 r8 r4
-  cis'1
+  g1~\dim
+  g~\!
+  g2\<\pp gis~\!
+  gis g~
+  g fis(
+  g1)\pp
+  fis~
+  fis2~\> fis8\! r8 r4
+  cis'1~\mp
   cis4 c b fis
   b1
   b4 bes a e
@@ -380,16 +380,16 @@ move_a_cello = \new Voice \relative c
   des
   c
   f
-  g(
-  g2) a(
-  aes4) aes8 r d,2
-  ees c4 d
-  e1
-  ees2 ees
-  ees d
-  ees1
-  ees
-  ees2 ees8 r8 r4
+  g~
+  g2 a~
+  a4~\> a8 r\! d,2\dim
+  ees\! c4( d)
+  e1~\pp
+  e2 ees~
+  ees d(
+  ees1~\pp
+  ees~
+  ees2~\> ees8)\! r8 r4
   r1
   r
   r
