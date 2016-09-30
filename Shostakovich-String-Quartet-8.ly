@@ -12,7 +12,7 @@
 {
   title = "String Quartet No. 8 in C minor"
   composer = "Dmitri Shostakovich (1906-1975)"
-  tagline = "https://github.com/daemonblade/shostakovic-string-quartet-8"
+  tagline = "https://github.com/daemonblade/shostakovich-string-quartet-8"
   copyright = \markup { \char ##x00A9 "2016 Jonathan Chen" }
 }
 
@@ -33,6 +33,12 @@ move_a_violin_a = \new Voice \relative c''
   r1
   r1
   r1
+  r2 g
+  aes f
+  e2. f4
+  f1
+  ees
+  ees
 }
 
 move_a_violin_b = \new Voice \relative c'
@@ -43,6 +49,12 @@ move_a_violin_b = \new Voice \relative c'
   r1
   r2 d
   ees c
+  b2. c4
+  c1
+  c2 des
+  d1
+  c
+  c
 }
 
 move_a_viola = \new Voice \relative c'
@@ -52,6 +64,12 @@ move_a_viola = \new Voice \relative c'
   r2 |
   r1
   r2 a
+  bes g
+  fis2. g4
+  g2 fis
+  f2 g
+  aes g
+  bes2 a
   bes g
   fis2. g4
 }
@@ -65,6 +83,12 @@ move_a_cello = \new Voice \relative c
   b2. c4
   c1
   bes2 aes
+  g1
+  des
+  c
+  f
+  g
+  g2 a
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
