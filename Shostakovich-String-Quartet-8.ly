@@ -55,6 +55,22 @@ move_a_violin_a = \new Voice \relative c''
   b2. c4
   c1
   g8 r8 r4 r2
+  r4 ees'' d des
+  c b bes a
+  aes2. g4
+  r aes a bes
+  b c aes c
+  fes2. ees4
+  r2 aes,4 ces
+  ees2. d4
+  c bes aes g
+  fis g des fes
+  aes2. g4
+  r bes aes g
+  r bes aes g
+  fis g bes, des
+  f2. fes4
+  ees2. c4
 }
 
 move_a_violin_b = \new Voice \relative c'
@@ -88,6 +104,8 @@ move_a_violin_b = \new Voice \relative c'
   aes g
   g1
   g2 g
+  g1
+  \repeat unfold 15 g
 }
 
 move_a_viola = \new Voice \relative c'
@@ -122,6 +140,8 @@ move_a_viola = \new Voice \relative c'
   d1
   c
   c2 c
+  c1
+  \repeat unfold 15 c
 }
 
 move_a_cello = \new Voice \relative c
@@ -156,6 +176,8 @@ move_a_cello = \new Voice \relative c
   g1
   c,
   c2 c
+  c1
+  \repeat unfold 15 c
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
