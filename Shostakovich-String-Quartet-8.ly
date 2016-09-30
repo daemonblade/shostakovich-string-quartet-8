@@ -75,7 +75,7 @@ move_a_violin_a = \new Voice \relative c''
   des2.( c4)
   b1\<
   c
-  d2(\!\p\>^\markup{poco rit.} ees4 d)
+  d!2(\!\p\>^\markup{poco rit.} ees4 d)
   f( ees d c)\!
   c2(\pp^\markup{a tempo} g4-- g--)
   aes2( g~
@@ -168,7 +168,7 @@ move_a_violin_b = \new Voice \relative c'
   b2.( c4)
   c1~
   c2 des
-  d1
+  d!1
   c~
   c~
   c4~\< c8 r\! d2\dim
