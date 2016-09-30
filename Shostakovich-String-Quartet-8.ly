@@ -86,6 +86,13 @@ move_a_violin_a = \new Voice \relative c''
   d2 c
   bes1
   bes2 aes
+  g1
+  g2. aes4
+  g1
+  g
+  e'
+  d2 c2
+  bes1
 }
 
 move_a_violin_b = \new Voice \relative c'
@@ -133,6 +140,13 @@ move_a_violin_b = \new Voice \relative c'
   aes2 g
   des' aes4 aes
   bes2. c4
+  des2 c4 des
+  ees2 c
+  ees des4 ees
+  e2 c
+  c g4 g
+  aes2 g
+  des' aes4 aes
 }
 
 move_a_viola = \new Voice \relative c'
