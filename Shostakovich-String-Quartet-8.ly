@@ -106,14 +106,14 @@ move_a_violin_a = \new Voice \relative c''
   g2.) aes4(
   g1~
   g2) f4( ees)
-  d1
+  d1\upbow_\markup{\italic{cresc. ed espress.}}
   ees
   c
-  b
-  b2. c4
-  c1
-  c2 c
-  c c4 c
+  b(~\mf\dim
+  b2.\! c4)
+  c1\p\dim
+  c2\! c
+  c\pp c4(-- c)--
   e1
   e
   e4 d e f
@@ -222,14 +222,14 @@ move_a_violin_b = \new Voice \relative c'
   fes2( des2~
   des) c4( des
   ees2 c)
-  b1
+  b1\upbow_\markup{\italic{cres. ed espress.}}
   bes
   a
-  aes
-  g
-  g
-  g2 g
-  a a4 a4
+  aes(\mf\dim
+  g)\!
+  g\p\dim
+  g2\! g
+  a\pp a4(-- a4)--
   c1
   c
   c4 b c d
@@ -316,14 +316,14 @@ move_a_viola = \new Voice \relative c'
   c,~
   \repeat unfold 6 c~
   c
-  g'
+  g'\upbow_\markup{\italic{cres. ed espress.}}
   ges
   f
-  fes2 ees
-  ees4 d2.
-  c1
-  c2 c
-  c c4 c
+  fes2(\mf\dim ees~
+  ees4\! d2.)
+  c1\p\dim
+  c2\! c
+  c\pp c4(-- c)--
   a'1
   a
   a2. g4
@@ -417,14 +417,14 @@ move_a_cello = \new Voice \relative c
   c,~
   \repeat unfold 6 c~
   c
-  g'
+  g'\upbow_\markup{\italic{cres. ed espress.}}
   ees
   f
-  g
-  g
-  c,
-  c4 g' c bes
-  a2 a8 r8 r4
+  g~\mf\dim
+  g\!
+  c,~\p\dim
+  c4\< g'(\!\> c bes)\!
+  a2~\pp a8 r8 r4
   r c b bes
   a gis g fis
   f2. e4
