@@ -298,12 +298,12 @@ move_a_cello = \new Voice \relative c
   c,
   \repeat unfold 6 c
   c
-  g
+  g'
   ees
   f
   g
   g
-  c
+  c,
   c4 g' c bes
   a2 a8 r8 r4
 }
