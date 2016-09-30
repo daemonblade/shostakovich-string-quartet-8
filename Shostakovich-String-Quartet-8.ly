@@ -30,13 +30,19 @@ move_a_violin_a = \new Voice \relative c''
   \set Staff.instrumentName = #"Violin 1"
   \partial 2 r2 |
   r1
+  r1
+  r1
+  r1
 }
 
-move_a_violin_b = \new Voice \relative c''
+move_a_violin_b = \new Voice \relative c'
 {
   \set Staff.instrumentName = #"Violin 2"
   r2 |
   r1
+  r1
+  r2 d
+  ees c
 }
 
 move_a_viola = \new Voice \relative c'
@@ -45,6 +51,9 @@ move_a_viola = \new Voice \relative c'
   \clef alto
   r2 |
   r1
+  r2 a
+  bes g
+  fis2. g4
 }
 
 move_a_cello = \new Voice \relative c
@@ -53,6 +62,9 @@ move_a_cello = \new Voice \relative c
   \clef bass
   d2 |
   ees c
+  b2. c4
+  c1
+  bes2 aes
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
