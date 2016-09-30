@@ -114,14 +114,14 @@ move_a_violin_a = \new Voice \relative c''
   c1\p\dim
   c2\! c
   c\pp c4(-- c)--
-  e1
-  e
-  e4 d e f
-  e1
-  e2 fis
-  g a4 b
-  cis d cis2
-  cis4 d dis e
+  e1~
+  e~
+  e4(\< d e f)\!
+  e1~\>
+  e2\! fis
+  g a4(\cresc b\!
+  cis d) cis2(~
+  cis4\dim^\markup{poco rit.} d\! dis e) \breathe
   e2 f
   e d
   d c
@@ -230,14 +230,14 @@ move_a_violin_b = \new Voice \relative c'
   g\p\dim
   g2\! g
   a\pp a4(-- a4)--
-  c1
-  c
-  c4 b c d
-  c1
-  c2 cis
-  fis1
-  fis
-  fis2. g4
+  c1~
+  c~
+  c4 b(\< c d)\!
+  c1~\>
+  c2\! cis
+  fis1(~\cresc
+  fis~\!
+  fis2.\dim g4)\! \breathe
   g2 a
   g1
   g2 f
@@ -324,14 +324,14 @@ move_a_viola = \new Voice \relative c'
   c1\p\dim
   c2\! c
   c\pp c4(-- c)--
-  a'1
-  a
-  a2. g4
-  gis a2.
-  a2 a
-  b cis4 b
-  a b a2
-  a2. c4
+  a'1~
+  a~
+  a2.( g4\<
+  gis a2.\!~\>
+  a2)\! a(
+  b) cis4(\cresc b
+  a\! b) a2(~
+  a2.\dim c4)\! \breathe
   c1
   c2 b
   b a
@@ -425,14 +425,14 @@ move_a_cello = \new Voice \relative c
   c,~\p\dim
   c4\< g'(\!\> c bes)\!
   a2~\pp a8 r8 r4
-  r c b bes
-  a gis g fis
-  f2. e4
-  r f fis g
-  gis a fis a
-  d2. cis4
-  cis r fis, a
-  cis2. c4
+  r c(_\markup{\italic{\bold p espress.}} b bes)
+  a( gis g fis)
+  f2.( e4)
+  r f( fis g)
+  gis( a fis a)
+  d2.(\cresc cis4~
+  cis)\! r fis,(\< a)\!
+  cis2.(\dim c4)\! \breathe
   c2 f,4 g
   a b c d
   ees2. d4
