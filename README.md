@@ -3,7 +3,7 @@
 A transcription of Shostakovich's String Quartet No 8 in C Minor
 
 The PDF output is available for download at the project's associated
-[Github Page](http://daemonblade.github.io/shostakovich-string-quartet-8/).
+[Github Page](https://daemonblade.github.io/shostakovich-string-quartet-8/).
 
 ## Compiling from Source
 
