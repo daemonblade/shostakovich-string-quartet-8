@@ -145,13 +145,13 @@ move_a_violin_a = \new Voice \relative c''
   b1~
   b2\dim c4.(\! d8)-.
   b1~
-  b
-  bes2 a
-  aes1
+  b\pp
+  bes2\< a\!
+  aes1\mf\dim
+  g~\!
+  g~\>\p
   g
-  g
-  g
-  g8 r r4 r2
+  g8\! r r4 r2
   r1
   r1
   \bar "|."
@@ -257,15 +257,15 @@ move_a_violin_b = \new Voice \relative c'
   a4.) ais8( b4.) c8(
   cis) r r4 r2
   \repeat unfold 5 r1
-  r2 d
-  ees c
-  b1
-  b2. c4
-  c2 g4 g
-  aes2 g
-  c g4 g
-  gis1
-  gis1
+  r2 d\pp
+  ees\< c\!
+  b1(~\mf\dim
+  b2.\! c4)
+  c2(\p\> g4-- g)--
+  aes2( g)\!
+  c(\pp g4-- g)--
+  gis1~\pp\cresc
+  gis1\!
   \bar "|."
 }
 
@@ -355,15 +355,15 @@ move_a_viola = \new Voice \relative c'
   bes4) a-_ aes-_ ees-_
   aes2(\dim a~\!
   a4) aes-_ g-_ d-_
-  g1
-  ges2 f
-  fes ees
-  ees d
-  c1
-  c1
-  c8 r r4 r2
-  gis'1
-  gis
+  g1\pp
+  ges2\< f\!
+  fes(\mf ees~\dim
+  ees)\! d
+  c1~\>\p
+  c1~
+  c8\! r r4 r2
+  gis'1~\pp\cresc
+  gis\!
   \bar "|."
 }
 
@@ -453,15 +453,15 @@ move_a_cello = \new Voice \relative c
   \repeat unfold 4 r1
   ees1\p\dim
   ees~\!
-  ees
-  ees2. f4
-  g1
-  g
-  c,
-  c
-  c8 r r4 r2
-  gis''1
-  gis
+  ees~\pp
+  ees2.\< f4(\!
+  g1~\mf\dim
+  g)\!
+  c,~\>\p
+  c~
+  c8\! r r4 r2
+  gis''1~\pp\cresc
+  gis\!
   \bar "|."
 }
 
