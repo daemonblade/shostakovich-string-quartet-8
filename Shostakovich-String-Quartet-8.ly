@@ -1,6 +1,5 @@
 %
 % Shostakovich String Quartet No 8 (Op 110)
-% Transcribed from J Salmon's 1914 arrangement for violin_a and piano.
 %
 % copyright: 2016 Jonathan Chen
 % source: https://github.com/daemonblade/shostakovich-string-quartet-8
@@ -48,6 +47,14 @@ move_a_violin_a = \new Voice \relative c''
   ees1
   ees
   ees2 e4. f8
+  d1
+  d2 d4. ees8
+  c1
+  c2 d
+  ees c
+  b2. c4
+  c1
+  g8 r8 r4 r2
 }
 
 move_a_violin_b = \new Voice \relative c'
@@ -73,6 +80,14 @@ move_a_violin_b = \new Voice \relative c'
   c4. d8 b4. c8
   a4. ais8 b4. c8
   cis r8 r4 r2
+  r1
+  r
+  r
+  r2 b
+  c aes
+  aes g
+  g1
+  g2 g
 }
 
 move_a_viola = \new Voice \relative c'
@@ -99,6 +114,14 @@ move_a_viola = \new Voice \relative c'
   fis
   f2 f8 r8 r4
   cis'1
+  cis4 c b fis
+  b1
+  b4 bes a e
+  a2 g
+  g f4 ees
+  d1
+  c
+  c2 c
 }
 
 move_a_cello = \new Voice \relative c
@@ -125,6 +148,14 @@ move_a_cello = \new Voice \relative c
   ees
   ees2 ees8 r8 r4
   r1
+  r
+  r
+  r
+  r2 g
+  ees f
+  g1
+  c,
+  c2 c
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
