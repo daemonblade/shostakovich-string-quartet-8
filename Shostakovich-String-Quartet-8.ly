@@ -9,7 +9,7 @@
 
 \header
 {
-  title = "String Quartet No. 8 in C minor"
+  title = "String Quartet No. 8"
   composer = "Dmitri Shostakovich (1906-1975)"
   tagline = "https://github.com/daemonblade/shostakovich-string-quartet-8"
   copyright = \markup { \char ##x00A9 "2016 Jonathan Chen" }
@@ -47,16 +47,16 @@ move_a_violin_a = \new Voice \relative c''
   ees1~->\mp
   ees~
   ees2 e4.( f8)-.
-  d1
-  d2 d4. ees8
-  c1
-  c2 d
-  ees c
-  b2. c4
-  c1
-  g8 r8 r4 r2
-  r4 ees'' d des
-  c b bes a
+  d1~
+  d2 d4.( ees8)-.
+  c1~
+  c2 d\mf
+  ees\< c\!
+  b2.(\f\dim c4)\!
+  c1(\>
+  g8)\!\pp r8 r4 r2
+  r4 ees''(\pp d des)
+  c( b bes a)
   aes2. g4
   r aes a bes
   b c aes c
@@ -183,13 +183,13 @@ move_a_violin_b = \new Voice \relative c'
   r1
   r
   r
-  r2 b
-  c aes
-  aes g
-  g1
+  r2 b\mf
+  c\< aes~\!
+  aes\f\dim g\!
+  g1~
   g2 g
-  g1
-  \repeat unfold 15 g
+  g1~\pp
+  \repeat unfold 15 g~
   g
   g8 r8 r4 r2
   \repeat unfold 4 r1
@@ -293,16 +293,16 @@ move_a_viola = \new Voice \relative c'
   fis~
   fis2~\> fis8\! r8 r4
   cis'1~\mp
-  cis4 c b fis
-  b1
-  b4 bes a e
-  a2 g
-  g f4 ees
-  d1
-  c
+  cis4 c-_-. b-_-. fis-_-.
+  b1~
+  b4 bes-_-. a-_-. e-_-.
+  a2 g~\mf
+  g\< f4( ees)\!
+  d1\f\dim
+  c\!
   c2 c
-  c1
-  \repeat unfold 15 c
+  c1~\pp
+  \repeat unfold 15 c~
   c
   c8 r8 r4 r2
   \repeat unfold 4 r1
@@ -394,13 +394,13 @@ move_a_cello = \new Voice \relative c
   r
   r
   r
-  r2 g
-  ees f
-  g1
-  c,
+  r2 g\mf
+  ees\< f\!
+  g1\f\dim
+  c,\!
   c2 c
-  c1
-  \repeat unfold 15 c
+  c1~\pp
+  \repeat unfold 15 c~
   c
   c8 r8 r4 r2
   r d'
