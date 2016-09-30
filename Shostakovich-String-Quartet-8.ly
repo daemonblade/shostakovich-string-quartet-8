@@ -57,17 +57,17 @@ move_a_violin_a = \new Voice \relative c''
   g8)\!\pp r8 r4 r2
   r4 ees''(\pp d des)
   c( b bes a)
-  aes2. g4
-  r aes a bes
-  b c aes c
-  fes2. ees4
-  r2 aes,4 ces
-  ees2. d4
-  c bes aes g
-  fis g des fes
-  aes2. g4
-  r bes aes g
-  r bes aes g
+  aes2.( g4)
+  r aes( a bes)
+  b( c aes c)
+  fes2.( ees4)
+  r2 aes,4(\upbow ces
+  ees2. d4)
+  c( bes aes g)
+  fis( g des fes)
+  aes2.( g4)
+  r bes( aes g)
+  r bes( aes g)
   fis g bes, des
   f2. fes4
   ees2. c4
