@@ -122,15 +122,15 @@ move_a_violin_a = \new Voice \relative c''
   g a4(\cresc b\!
   cis d) cis2(~
   cis4\dim^\markup{poco rit.} d\! dis e) \breathe
-  e2 f
-  e d
-  d c
-  c b
+  e2(\pp^\markup{a tempo} f)
+  e( d~
+  d) c~
+  c b~
   b c
   cis1
-  b2 a
-  r4 d, e fis
-  fis f fis g
+  b2( a)
+  r4 d,(\< e fis~
+  fis)\! f fis g
   g d d'2
   ees c
   b1
@@ -238,15 +238,15 @@ move_a_violin_b = \new Voice \relative c'
   fis1(~\cresc
   fis~\!
   fis2.\dim g4)\! \breathe
-  g2 a
-  g1
-  g2 f
+  g2(\pp a)
+  g1~
+  g2 f~
   f e
   d c
-  cis1
+  cis1~
   cis
-  r4 b cis d
-  d1
+  r4 b(\< cis d~
+  d1)\!
   cis4 d2.
   ees2 c
   b1
@@ -332,15 +332,15 @@ move_a_viola = \new Voice \relative c'
   b) cis4(\cresc b
   a\! b) a2(~
   a2.\dim c4)\! \breathe
-  c1
-  c2 b
-  b a
-  a gis
-  gis a
+  c1~\pp
+  c2 b~
+  b a~
+  a gis~
+  gis a~
+  a1~
   a1
-  a1
-  r4 a2 gis4
-  gis2 g
+  r4 a2(\< gis4~
+  gis2)\! g
   g1
   g
   g2 gis4 a
@@ -433,15 +433,15 @@ move_a_cello = \new Voice \relative c
   d2.(\cresc cis4~
   cis)\! r fis,(\< a)\!
   cis2.(\dim c4)\! \breathe
-  c2 f,4 g
-  a b c d
-  ees2. d4
-  f2. d4
-  f2 ees4 d
-  d cis c b
-  bes a gis g
-  fis2 f4 e
-  e2 ees
+  c2(\pp f,4 g
+  a b c d)
+  ees2.( d4)
+  f2.( d4)
+  f2( ees4 d~
+  d) cis( c b)
+  bes( a gis g)
+  fis2(\< f4 e~
+  e2)\! ees
   d1
   e2 c4 d
   e1
