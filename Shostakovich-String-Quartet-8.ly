@@ -17,14 +17,14 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-move_a_begin =
+largo_begin =
 {
   \tempo "Largo" 2 = 63
   \time 4/4
   \key c \minor
 }
 
-move_a_violin_a = \new Voice \relative c''
+largo_violin_a = \new Voice \relative c''
 {
   \set Staff.instrumentName = #"Violin 1"
   \partial 2 r2 |
@@ -157,7 +157,7 @@ move_a_violin_a = \new Voice \relative c''
   \bar "|."
 }
 
-move_a_violin_b = \new Voice \relative c'
+largo_violin_b = \new Voice \relative c'
 {
   \set Staff.instrumentName = #"Violin 2"
   \partial 2 r2 |
@@ -269,7 +269,7 @@ move_a_violin_b = \new Voice \relative c'
   \bar "|."
 }
 
-move_a_viola = \new Voice \relative c'
+largo_viola = \new Voice \relative c'
 {
   \set Staff.instrumentName = #"Viola"
   \clef alto
@@ -367,7 +367,7 @@ move_a_viola = \new Voice \relative c'
   \bar "|."
 }
 
-move_a_cello = \new Voice \relative c
+largo_cello = \new Voice \relative c
 {
   \set Staff.instrumentName = #"Cello"
   \clef bass
@@ -466,6 +466,57 @@ move_a_cello = \new Voice \relative c
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+allegro_begin =
+{
+  \tempo "Allegro molto" 1 = 120
+  \time 2/2
+  \key gis \minor
+}
+
+allegro_violin_a = \new Voice \relative c''
+{
+  \set Staff.instrumentName = #"Violin 1"
+  b2 gis4 gis
+  a2 gis4 gis
+  b2 gis4 gis
+  a2 gis4 gis
+  fisis gis a ais
+  fis! fisis gis a
+  eis fis! fisis gis
+  a ais b c
+}
+
+allegro_violin_b = \new Voice \relative c'
+{
+  \set Staff.instrumentName = #"Violin 2"
+  b4 r r2
+  r1
+  b4 r4 r2
+  \repeat unfold 5 r1
+}
+
+allegro_viola = \new Voice \relative c'
+{
+  \set Staff.instrumentName = #"Viola"
+  \clef alto
+  gis4 r r2
+  r1
+  gis4 r r2
+  \repeat unfold 5 r1
+}
+
+allegro_cello = \new Voice \relative c
+{
+  \set Staff.instrumentName = #"Cello"
+  \clef bass
+  <gis b>4 r r2
+  r1
+  <gis b>4 r r2
+  \repeat unfold 5 r1
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Book Generation
 %
@@ -477,10 +528,20 @@ move_a_cello = \new Voice \relative c
   {
     \new StaffGroup
     <<
-      \new Staff << \move_a_begin \move_a_violin_a >>
-      \new Staff << \move_a_begin \move_a_violin_b >>
-      \new Staff << \move_a_begin \move_a_viola >>
-      \new Staff << \move_a_begin \move_a_cello >>
+      \new Staff << \largo_begin \largo_violin_a >>
+      \new Staff << \largo_begin \largo_violin_b >>
+      \new Staff << \largo_begin \largo_viola >>
+      \new Staff << \largo_begin \largo_cello >>
+    >>
+  }
+  \score
+  {
+    \new StaffGroup
+    <<
+      \new Staff << \allegro_begin \allegro_violin_a >>
+      \new Staff << \allegro_begin \allegro_violin_b >>
+      \new Staff << \allegro_begin \allegro_viola >>
+      \new Staff << \allegro_begin \allegro_cello >>
     >>
   }
 }
@@ -490,7 +551,11 @@ move_a_cello = \new Voice \relative c
   \bookOutputSuffix "Violin1"
   \score
   {
-    \new Staff << \move_a_begin \move_a_violin_a >>
+    \new Staff << \largo_begin \largo_violin_a >>
+  }
+  \score
+  {
+    \new Staff << \allegro_begin \allegro_violin_a >>
   }
 }
 
@@ -499,7 +564,11 @@ move_a_cello = \new Voice \relative c
   \bookOutputSuffix "Violin2"
   \score
   {
-    \new Staff << \move_a_begin \move_a_violin_b >>
+    \new Staff << \largo_begin \largo_violin_b >>
+  }
+  \score
+  {
+    \new Staff << \allegro_begin \allegro_violin_b >>
   }
 }
 
@@ -508,7 +577,11 @@ move_a_cello = \new Voice \relative c
   \bookOutputSuffix "Viola"
   \score
   {
-    \new Staff << \move_a_begin \move_a_viola >>
+    \new Staff << \largo_begin \largo_viola >>
+  }
+  \score
+  {
+    \new Staff << \allegro_begin \allegro_viola >>
   }
 }
 
@@ -517,6 +590,10 @@ move_a_cello = \new Voice \relative c
   \bookOutputSuffix "Cello"
   \score
   {
-    \new Staff << \move_a_begin \move_a_cello >>
+    \new Staff << \largo_begin \largo_cello >>
+  }
+  \score
+  {
+    \new Staff << \allegro_begin \allegro_cello >>
   }
 }
