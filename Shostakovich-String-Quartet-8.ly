@@ -525,6 +525,14 @@ allegro_violin_a = \new Voice \relative c''
   \repeat unfold 7 {aes' g, r2}
   gis!4 gis a a
   b b e? e
+  gis, gis a a
+  b b e e
+  f r r2
+  f4 r r2
+  f4 r r2
+  r4 d' ees c
+  b r r2
+  r4 d,, ees c
 }
 
 allegro_violin_b = \new Voice \relative c'
@@ -570,6 +578,14 @@ allegro_violin_b = \new Voice \relative c'
   \repeat unfold 7 {<d g> <d g> r2}
   gis,!4 gis fisis fisis
   fis! fis eis eis
+  gis gis fisis fisis
+  fis! fis eis eis
+  e! r r2
+  e4 r r2
+  r4 d' ees c
+  b r fis' r
+  g d ees c
+  b r a r
 }
 
 allegro_viola = \new Voice \relative c'
@@ -623,8 +639,13 @@ allegro_viola = \new Voice \relative c'
   d2 b4 d
   ees2 d4 ees
   f g gis a
-  gis2 gis
-  gis gis
+  \repeat unfold 4 {gis2 gis}
+  r1
+  r4 d ees c
+  b r r2
+  r2 g'4 r
+  fes r g r
+  aes r g r
 }
 
 allegro_cello = \new Voice \relative c
@@ -673,8 +694,13 @@ allegro_cello = \new Voice \relative c
   d2 b4 d
   ees2 d4 ees
   f g gis a
-  gis2 gis
-  gis gis
+  \repeat unfold 4 {gis2 gis}
+  r4 d ees c
+  b r r2
+  e'!4 r r2
+  r2 d4 r
+  ees r e r
+  f r r2
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
