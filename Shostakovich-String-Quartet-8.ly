@@ -476,7 +476,6 @@ allegro_begin =
 
 allegro_violin_a = \new Voice \relative c''
 {
-  \set Staff.instrumentName = #"Violin 1"
   b2 gis4 gis
   a2 gis4 gis
   b2 gis4 gis
@@ -561,7 +560,6 @@ allegro_violin_a = \new Voice \relative c''
 
 allegro_violin_b = \new Voice \relative c'
 {
-  \set Staff.instrumentName = #"Violin 2"
   b4 r r2
   r1
   b4 r4 r2
@@ -625,7 +623,6 @@ allegro_violin_b = \new Voice \relative c'
 
 allegro_viola = \new Voice \relative c'
 {
-  \set Staff.instrumentName = #"Viola"
   \clef alto
   gis4 r r2
   r1
@@ -711,7 +708,6 @@ allegro_viola = \new Voice \relative c'
 
 allegro_cello = \new Voice \relative c
 {
-  \set Staff.instrumentName = #"Cello"
   \clef bass
   <gis b>4 r r2
   r1
