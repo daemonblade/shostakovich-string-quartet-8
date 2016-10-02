@@ -580,7 +580,17 @@ allegro_violin_a = \new Voice \relative c''
   c1
   c
   g'
-  a4 g g fis
+  \repeat unfold 5
+  {
+    a4 g g fis
+    a1
+  }
+  \repeat unfold 4 {a4 g g fis}
+  des ees des ees
+  c1
+  fis
+  fis2 g
+  c, c
 }
 
 allegro_violin_b = \new Voice \relative c'
@@ -669,7 +679,17 @@ allegro_violin_b = \new Voice \relative c'
   c1
   c1
   g'
-  a4 g g fis
+  \repeat unfold 5
+  {
+    a4 g g fis
+    a1
+  }
+  \repeat unfold 4 {a4 g g fis}
+  des ees des ees
+  c1
+  fis
+  fis2 g
+  c, c
 }
 
 allegro_viola = \new Voice \relative c'
