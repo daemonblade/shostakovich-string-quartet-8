@@ -624,6 +624,13 @@ allegro_violin_a = \new Voice \relative c''
   b, g'
   g g
   \tuplet 3/2 {g4 aes g} fis2
+  \tuplet 3/2 {fis4 g fis} f2
+  r1
+  d
+  ees
+  c
+  b2 f
+  f f
 }
 
 allegro_violin_b = \new Voice \relative c'
@@ -752,6 +759,13 @@ allegro_violin_b = \new Voice \relative c'
   b e
   e e
   \tuplet 3/2 {e4 f e} dis2
+  \tuplet 3/2 {dis4 e dis} d2
+  r1
+  d
+  ees
+  c
+  b2 aes
+  aes aes
 }
 
 allegro_viola = \new Voice \relative c'
