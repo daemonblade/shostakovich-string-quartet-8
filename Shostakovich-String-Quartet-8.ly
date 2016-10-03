@@ -653,6 +653,13 @@ allegro_violin_a = \new Voice \relative c''
   r4 b,, c cis
   d cis d dis
   r d dis e
+  dis e f fis
+  g fis fis fis
+  a fis fis fis
+  r a, ais b
+  c b b b
+  d b b b
+  r c d ees
 }
 
 allegro_violin_b = \new Voice \relative c'
@@ -809,6 +816,13 @@ allegro_violin_b = \new Voice \relative c'
   r4 g, aes a
   bes a bes b
   r bes! b c
+  b c des d
+  des c c c
+  b ais ais ais
+  r c, cis d
+  ees d d d
+  aes'! g g g
+  r f fis g
 }
 
 allegro_viola = \new Voice \relative c'
@@ -932,6 +946,8 @@ allegro_viola = \new Voice \relative c'
   r b c b
   d b c b
   \repeat unfold 8 r1
+  r2 \clef alto d,
+  ees c
 }
 
 allegro_cello = \new Voice \relative c
@@ -1056,6 +1072,14 @@ allegro_cello = \new Voice \relative c
   b2 g'
   g g
   \tuplet 3/2 {g4 aes g} fis2
+  \tuplet 3/2 {fis4 g fis} f2
+  r2 d
+  ees! c
+  b a
+  \clef bass
+  aes! ges
+  f d
+  ees c
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
