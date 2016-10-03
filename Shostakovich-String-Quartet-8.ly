@@ -687,6 +687,20 @@ allegro_violin_a = \new Voice \relative c''
   r1
   <b gis'>4 r r2
   \repeat unfold 3 r1
+  e4 g e g
+  aes g e g
+  aes g e g
+  e g e g
+  aes g e g
+  aes aes f f
+  a a gis! eis
+  a a gis eis
+  e! eis fis fisis
+  eis fis! fisis gis
+  fis! fisis gis a
+  gis gis eis eis
+  a a gis eis
+  gis gis eis eis
 }
 
 allegro_violin_b = \new Voice \relative c'
@@ -875,6 +889,21 @@ allegro_violin_b = \new Voice \relative c'
   r1
   gis4 r r2
   \repeat unfold 3 r1
+  g4 r r2
+  r1
+  r1
+  <g e'>4 r r2
+  r1
+  r
+  cis4 r r2
+  cis4 r r2
+  \repeat unfold 3 r1
+  cis4 r r2
+  cis4 r r2
+  r1
+  cis4 r r2
+  r1
+  r
 }
 
 allegro_viola = \new Voice \relative c'
@@ -1037,6 +1066,21 @@ allegro_viola = \new Voice \relative c'
   c c b b
   ais b bis cis
   bis cis d dis
+  e r r2
+  r1
+  r
+  <e, g>4 r r2
+  r1
+  r
+  ais?4 r r2
+  ais4 r r2
+  \repeat unfold 3 r1
+  ais4 r r2
+  ais4 r r2
+  r1
+  ais4 r r2
+  r1
+  r
 }
 
 allegro_cello = \new Voice \relative c
@@ -1196,6 +1240,18 @@ allegro_cello = \new Voice \relative c
   r1
   <a d>4 r r2
   \repeat unfold 3 r1
+  <e g>4 r r2
+  r1
+  r
+  <e g>4 r r2
+  r1
+  r
+  <gis! cis>4 r r2
+  <gis cis>4 r r2
+  \repeat unfold 3 r1
+  <gis cis>4 r r2
+  <gis cis>4 r r2
+  r1
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
