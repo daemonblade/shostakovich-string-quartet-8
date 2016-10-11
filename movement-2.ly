@@ -109,11 +109,11 @@ allegro_violin_a = \new Voice \relative c''
   b c d ees
   c d ees f
   \key c \minor
-  fis1
+  fis1~_\markup{\italic {\bold fff molto espress.}}
   fis2 g
   c, c
   c1
-  fis
+  fis~
   fis2 g
   c, c
   c1
@@ -291,10 +291,10 @@ allegro_violin_a = \new Voice \relative c''
     \tuplet 3/2 {aes4 beses aes} g2
     \tuplet 3/2 {g4 aes g} fis2
   }
-  \tuplet 3/2 {c,,4(\ff g' ees')} \tuplet 3/2 {c'( ees, g,)}
+  \tuplet 3/2 2 {c,,4(\ff g' ees') c'( ees, g,)}
   \repeat unfold 9
   {
-    \tuplet 3/2 {c,( g' ees')} \tuplet 3/2 {c'( ees, g,)}
+    \tuplet 3/2 2 {c,( g' ees') c'( ees, g,)}
   }
   \tuplet 3/2 {cis,( e bes')} \tuplet 3/2 {e( bes e,)}
   \repeat unfold 12
@@ -364,7 +364,7 @@ allegro_violin_b = \new Voice \relative c'
   b1~\<
   b4\! r r2
   \repeat unfold 30 r1
-  fis4 g fis g
+  fis4\ff g fis g
   fis g fis g
   aes g aes g
   fis g fis g
@@ -379,11 +379,11 @@ allegro_violin_b = \new Voice \relative c'
   ees d c b
   c b a g
   \key c \minor
-  fis1
+  fis1~_\markup{\italic {\bold fff molto espress.}}
   fis2 g
   c, c
   c1
-  fis
+  fis~
   fis2 g
   c, c
   c1
@@ -639,13 +639,13 @@ allegro_viola = \new Voice \relative c'
   bes2 a4 fis
   \repeat unfold 15 {bes bes a fis}
   \repeat unfold 6 r1
-  \repeat unfold 6 {r2 aes4 r}
-  r2 aes
+  \repeat unfold 6 {r2 aes4\sfff r}
+  r2 aes\ff
   a bes
   r a
   bes b
-  r \clef treble fis'
-  fis fis
+  r \clef treble fis'->
+  fis-> fis->
   \clef alto
   \key c \minor
   \repeat unfold 29 {\tuplet 3/2 2 {ees,,4( c' g') ees'( g, c,)}}
@@ -864,20 +864,20 @@ allegro_cello = \new Voice \relative c
   <fis a>4-> <fis a> r2
   <g a>4-> <g a> r2
   \repeat unfold 15 {<fis a>4\downbow r <g a>\downbow r}
-  r2 \clef tenor d'2
-  ees c
-  b1
-  r2 d
-  ees c
-  b1
-  r2 g'4 r
-  \repeat unfold 5 {r2 g4 r}
-  r2 g
+  r2 \clef tenor d'2->
+  ees-> c->
+  b1->
+  r2 d->
+  ees-> c->
+  b1->
+  r2 g'4\sfff r
+  \repeat unfold 5 {r2 g4\sfff r}
+  r2 g\ff
   gis! a
   r2 gis
   a ais
-  r2 fis
-  fis fis
+  r2 fis->
+  fis-> fis->
   \clef bass
   \key c \minor
   \tuplet 3/2 2 {c,,4 g' ees' c' ees, g,}
