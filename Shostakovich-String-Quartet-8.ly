@@ -1204,6 +1204,10 @@ allegro_viola = \new Voice \relative c'
   des c des c
   d! cis d cis
   ees d ees d
+  f d ees f
+  fis g g fis
+  fis g g fis
+  fis\< g g fis\!
 }
 
 allegro_cello = \new Voice \relative c
@@ -1413,8 +1417,10 @@ allegro_cello = \new Voice \relative c
   aes g aes g
   fis g aes a
   aes! g aes g
-  aes g aes g
-  aes g aes g
+  \repeat unfold 3 {aes g aes g}
+  fis g g fis
+  fis g g fis
+  fis\< g g fis\!
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
