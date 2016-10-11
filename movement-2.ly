@@ -303,7 +303,7 @@ allegro_violin_a = \new Voice \relative c''
   }
   \tuplet 3/2 {cis(\< e bes')} \tuplet 3/2 {e( bes e,)}
   \tuplet 3/2 {cis( e bes')} \tuplet 3/2 {e( bes e,)\!}
-  r1
+  r1\fermata
   \bar "|."
 }
 
@@ -556,7 +556,7 @@ allegro_violin_b = \new Voice \relative c'
   }
   \tuplet 3/2 {g,(\< e' cis')} \tuplet 3/2 {bes'( cis, e,)}
   \tuplet 3/2 {g,( e' cis')} \tuplet 3/2 {bes'( cis, e,)\!}
-  r1
+  r1\fermata
   \bar "|."
 }
 
@@ -788,7 +788,7 @@ allegro_viola = \new Voice \relative c'
   \repeat unfold 3 {a4 g g fis}
   a4\< g g fis
   a4 g g fis\!
-  r1
+  r1\fermata
   \bar "|."
 }
 
@@ -1023,6 +1023,6 @@ allegro_cello = \new Voice \relative c
   \repeat unfold 3 {a4 g g fis}
   a4\< g g fis
   a4 g g fis\!
-  r1
+  r1\fermata
   \bar "|."
 }
