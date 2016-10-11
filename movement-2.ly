@@ -127,10 +127,10 @@ allegro_violin_a = \new Voice \relative c''
   \repeat unfold 4 {a4 g g fis}
   des ees des ees
   c1
-  fis
+  fis~
   fis2 g
   c, c
-  c c4 ees
+  c c4\ff ees
   des c bes a
   bes a bes c
   des c bes a
@@ -397,12 +397,12 @@ allegro_violin_b = \new Voice \relative c'
   \repeat unfold 4 {a4 g g fis}
   des ees des ees
   c1
-  fis
+  fis~
   fis2 g
   c, c
   c r
-  ees'4 r fes r
-  \repeat unfold 5 {ees r fes r}
+  ees'4\ff\downbow r fes\downbow r
+  \repeat unfold 5 {ees\downbow r fes\downbow r}
   r1
   r4 ees d des
   c cis d! ees?
@@ -650,11 +650,11 @@ allegro_viola = \new Voice \relative c'
   \key c \minor
   \repeat unfold 29 {\tuplet 3/2 2 {ees,,4( c' g') ees'( g, c,)}}
   \tuplet 3/2 {ees, c' g'} ees' r
-  a, r a r
-  \repeat unfold 5 {a r a r}
+  a,\ff\downbow r a\downbow r
+  \repeat unfold 5 {a\downbow r a\downbow r}
   r1
   r1
-  \repeat unfold 4 {b4 r ais r}
+  \repeat unfold 4 {b4\downbow r ais\downbow r}
   r1
   \repeat unfold 3 {ees4 r fes r}
   r2 e4 r
@@ -884,11 +884,11 @@ allegro_cello = \new Voice \relative c
   \repeat unfold 28 {\tuplet 3/2 2 {c,4( g' ees') c'( ees, g,)}}
   \tuplet 3/2 {c,( g' e')} c' r
   \clef tenor
-  fis\ff r g r
-  \repeat unfold 5 {fis r g r}
+  fis\ff\downbow r g\downbow r
+  \repeat unfold 5 {fis\downbow r g\downbow r}
   r1
   r
-  \repeat unfold 4 {dis4 r e r}
+  \repeat unfold 4 {dis4\downbow r e\downbow r}
   r1
   \repeat unfold 3 {des4 r d r}
   r1
