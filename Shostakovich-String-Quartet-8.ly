@@ -1195,6 +1195,15 @@ allegro_viola = \new Voice \relative c'
   a bes! b c
   des c des c
   d! cis d cis
+  ees d ees d
+  a\cresc bes! b\! c
+  des c des c
+  d! cis d cis
+  ees d ees d
+  a bes! b c
+  des c des c
+  d! cis d cis
+  ees d ees d
 }
 
 allegro_cello = \new Voice \relative c
@@ -1396,6 +1405,15 @@ allegro_cello = \new Voice \relative c
   d d ees f
   fis g aes a
   aes! g aes g
+  aes g aes g
+  aes g aes g
+  fis\cresc g aes\! a
+  aes! g aes g
+  aes g aes g
+  aes g aes g
+  fis g aes a
+  aes! g aes g
+  aes g aes g
   aes g aes g
 }
 
