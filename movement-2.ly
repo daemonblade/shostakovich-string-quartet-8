@@ -182,12 +182,12 @@ allegro_violin_a = \new Voice \relative c''
   d cis
   e gis
   g bes
-  d1
-  d2 cis
-  cis \ottava #1 ais'
-  ais ais
-  \tuplet 3/2 {ais4 b ais} a2
-  \tuplet 3/2 {a4 bes a} aes2
+  d1~\<
+  d2\! cis
+  cis( \ottava #1 ais')-.
+  ais-. ais-.
+  \tuplet 3/2 {ais4( b ais)} a2-.
+  \tuplet 3/2 {a4( bes a)} aes2-.
   \ottava #0
   r4 b,, c cis
   d cis d dis
@@ -210,9 +210,9 @@ allegro_violin_a = \new Voice \relative c''
   b r r2
   <g b>4 r r2
   \key gis \minor
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  <b,, gis'>4 r r2
+  <b,, gis'>4\sfff r r2
   \repeat unfold 4 r1
   \repeat unfold 2
   {
@@ -676,20 +676,20 @@ allegro_viola = \new Voice \relative c'
   r b c b
   d b c b
   \repeat unfold 8 r1
-  r2 \clef alto d,
+  r2 \clef alto d,\ff
   ees c
-  b aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
-  b, g'
-  g g
-  \tuplet 3/2 {g4 aes g} fis2
-  \tuplet 3/2 {fis4 g fis} f2
-  f4 e ees d
+  b( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  b,( g')-.
+  g-. g-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  \tuplet 3/2 {fis4( g fis)} f2~(
+  f4 e) ees d
   cis d cis c
   \key gis \minor
-  b b gis gis
+  b\sfff b gis gis
   a a gis gis
   b b gis gis
   a a gis gis
@@ -909,10 +909,10 @@ allegro_cello = \new Voice \relative c
   g e f e
   r dis e dis
   fis dis e dis
-  b2 g'
-  g g
-  \tuplet 3/2 {g4 aes g} fis2
-  \tuplet 3/2 {fis4 g fis} f2
+  b2(_\markup{\italic{\bold fff espress.}} g')-.
+  g-. g-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  \tuplet 3/2 {fis4( g fis)} f2-.
   r2 d
   ees! c
   b a
@@ -920,20 +920,20 @@ allegro_cello = \new Voice \relative c
   aes! ges
   f d
   ees c
-  b aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
-  b, g'
-  g g
-  \tuplet 3/2 {g4 aes g} fis2
-  \tuplet 3/2 {fis4 g fis} f2
-  f4 e d c
+  b( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  b,( g')-.
+  g-. g-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  \tuplet 3/2 {fis4( g fis)} f2~(
+  f4 e) d c
   b c b a
   \key gis \minor
-  gis r r2
+  gis\sfff r r2
   r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   \repeat unfold 4 r1
   <gis b>4 r r2
   r1
