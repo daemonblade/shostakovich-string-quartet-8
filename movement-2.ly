@@ -6,6 +6,8 @@
 % style: indent 2 spaces, 80 cols, 1 bar/line
 %
 
+sfff = _\markup{\italic {\bold sfff}}
+
 allegro_begin =
 {
   \tempo "Allegro molto" 1 = 120
@@ -15,7 +17,7 @@ allegro_begin =
 
 allegro_violin_a = \new Voice \relative c''
 {
-  b2 gis4 gis
+  b2\ff gis4 gis
   a2 gis4 gis
   b2 gis4 gis
   a2 gis4 gis
@@ -309,30 +311,28 @@ allegro_violin_a = \new Voice \relative c''
 
 allegro_violin_b = \new Voice \relative c'
 {
-  b4 r r2
+  b4\sfff r r2
   r1
-  b4 r4 r2
+  b4\sfff r4 r2
   \repeat unfold 5 r1
-  b4 r4 r2
+  b4\sfff r4 r2
   r1
-  b4 r4 r2
+  b4\sfff r4 r2
   r1
-  c4 r r2
+  c4\sfff r r2
   r1
-  r2 c4 r
+  r2 c4\sfff r
   r1
-  r2 g'4 r
-  r2 g4 r
-  r2 g4 r
-  r2 g4 r
-  aes2 g4 fis!
-  aes2 g4 fis!
-  aes2 g4 fis!
-  aes2 g4 fis!
-  aes2 g4 fis!
-  b, r r2
+  r2 g'4\sfff r
+  r2 g4\sfff r
+  r2 g4\sfff r
+  r2 g4\sfff r
+  aes2->\sf g4 fis!
+  \repeat unfold 3 {aes2-> g4 fis!}
+  aes2 g4-.( fis!-.)
+  b,\sfff r r2
   r1
-  b4 r r2
+  b4\sfff r r2
   \repeat unfold 5 r1
   r2 <b' e>4 r
   \repeat unfold 6 {<b e> r <b e> r}
@@ -565,26 +565,23 @@ allegro_violin_b = \new Voice \relative c'
 allegro_viola = \new Voice \relative c'
 {
   \clef alto
-  gis4 r r2
+  gis4\sfff r r2
   r1
-  gis4 r r2
+  gis4\sfff r r2
   \repeat unfold 5 r1
-  gis4 r r2
+  gis4\sfff r r2
   r1
-  gis4 r r2
+  gis4\sfff r r2
   r1
-  <c, a'>4 r r2
+  <c, a'>4\sfff r r2
   r1
-  r2 <c a'>4 r
+  r2 <c a'>4\sfff r
   r1
-  r2 d'4 r
-  r2 d4 r
-  r2 d4 r
-  r2 d4 r
+  \repeat unfold 4 {r2 d'4\sfff r}
   \repeat unfold 5 r1
-  gis,4 r r2
+  gis,4\sfff r r2
   r1
-  gis4 r r2
+  gis4\sfff r r2
   \repeat unfold 3 r1
   r2 gis
   a fis
@@ -800,21 +797,21 @@ allegro_viola = \new Voice \relative c'
 allegro_cello = \new Voice \relative c
 {
   \clef bass
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   \repeat unfold 5 r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  gis4 r r2
+  gis4\sfff r r2
   r1
-  r2 gis4 r
+  r2 gis4\sfff r
   \repeat unfold 10 r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   \repeat unfold 3 r1
   r2 gis
   a fis
