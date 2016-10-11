@@ -268,28 +268,28 @@ allegro_violin_a = \new Voice \relative c''
   d1
   ees
   c
-  b2 aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
+  b2( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
   r1
-  d
+  d_\markup{[ \italic {\bold f} ] \italic{\bold p sub.}}
   ees
   c
-  b2 aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
-  b,2\cresc aes'\!
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
+  b2( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  b,2(\cresc aes')-.\!
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
   \repeat unfold 2
   {
-    b,2 aes'
-    aes aes
-    \tuplet 3/2 {aes4 beses aes} g2
-    \tuplet 3/2 {g4 aes g} fis2
+    b,2( aes')-.
+    aes-. aes-.
+    \tuplet 3/2 {aes4( beses aes)} g2-.
+    \tuplet 3/2 {g4( aes g)} fis2-.
   }
   \tuplet 3/2 2 {c,,4(\ff g' ees') c'( ees, g,)}
   \repeat unfold 9
@@ -508,11 +508,13 @@ allegro_violin_b = \new Voice \relative c'
   r1
   <b gis'>4\sfff r r2
   \repeat unfold 4 r1
-  {r2 c'4 r}
-  \repeat unfold 4 {r2 c4 r}
+  r2 c'4\sfff r
+  \repeat unfold 4 {r2 c4\sfff r}
   r1
   \key c \minor
-  \repeat unfold 4
+  d2\ff b4 d
+  ees2 d4 b
+  \repeat unfold 3
   {
     d2 b4 d
     ees2 d4 b
@@ -520,28 +522,28 @@ allegro_violin_b = \new Voice \relative c'
   d1
   ees
   c
-  b2 aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
+  b2( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
   r1
-  d
+  d_\markup{[ \italic {\bold f} ] \italic{\bold p sub.}}
   ees
   c
-  b2 aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
-  b,2\cresc aes'\!
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
+  b2( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  b,2(\cresc aes')-.\!
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
   \repeat unfold 2
   {
-    b,2 aes'
-    aes aes
-    \tuplet 3/2 {aes4 beses aes} g2
-    \tuplet 3/2 {g4 aes g} fis2
+    b,2( aes')-.
+    aes-. aes-.
+    \tuplet 3/2 {aes4( beses aes)} g2-.
+    \tuplet 3/2 {g4( aes g)} fis2-.
   }
   \tuplet 3/2 {g,,4(\ff ees' c')} \tuplet 3/2 {g'( c, ees,)}
   \repeat unfold 9
@@ -734,11 +736,11 @@ allegro_viola = \new Voice \relative c'
   r1
   gis4\sfff r r2
   \repeat unfold 4 r1
-  r2 ais'4 r
-  \repeat unfold 4 {r2 ais4 r}
+  r2 ais'4\sfff r
+  \repeat unfold 4 {r2 ais4\sfff r}
   r1
   \key c \minor
-  d,4 d d d
+  d,4\ff d d d
   \repeat unfold 7 {d d d d}
   d d ees f
   ees ees f ges
@@ -748,7 +750,7 @@ allegro_viola = \new Voice \relative c'
   d! cis d cis
   ees d ees f
   fis fis f ees
-  d d, ees f
+  d_\markup{[ \italic{\bold f} ] \italic{\bold p sub.}} d, ees f
   ees ees f ges
   f f ges aes
   a bes! b c
@@ -768,7 +770,7 @@ allegro_viola = \new Voice \relative c'
   fis g g fis
   fis\< g g fis\!
   \clef treble
-  fis1\fff
+  fis1~_\markup{\italic{\bold fff molto espress.}}
   fis2 g
   c, c
   c1
@@ -967,11 +969,13 @@ allegro_cello = \new Voice \relative c
   <gis b>4\sfff r r2
   \repeat unfold 4 r1
   \clef tenor
-  r2 e''4 r
-  \repeat unfold 4 {r2 e4 r}
+  r2 e''4\sfff r
+  \repeat unfold 4 {r2 e4\sfff r}
   r1
   \key c \minor
-  \repeat unfold 4
+  d4\fff d ees f
+  ges ges f ees
+  \repeat unfold 3
   {
     d4 d ees f
     ges ges f ees
@@ -984,7 +988,7 @@ allegro_cello = \new Voice \relative c
   a gis a gis
   bes a aes g
   fis fis f ees
-  d d d d
+  d_\markup{[ \italic{\bold f} ] \italic{\bold p sub.}} d d d
   d d d d
   d d ees f
   fis g aes a
@@ -1001,7 +1005,7 @@ allegro_cello = \new Voice \relative c
   fis g g fis
   fis g g fis
   fis\< g g fis\!
-  fis1~\fff
+  fis1~_\markup{\italic{\bold fff molto espress.}}
   fis2 g
   c, c
   c1
