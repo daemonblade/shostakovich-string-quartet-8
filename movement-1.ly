@@ -1,5 +1,9 @@
 %
+% Shostakovich String Quartet No 8 (Op 110)
 % Movement 1 : Largo
+%
+% copyright: 2016 Jonathan Chen
+% style: indent 2 spaces, 80 cols, 1 bar/line
 %
 
 largo_begin =
