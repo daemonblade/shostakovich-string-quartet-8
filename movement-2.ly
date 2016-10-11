@@ -216,15 +216,15 @@ allegro_violin_a = \new Voice \relative c''
   \repeat unfold 4 r1
   \repeat unfold 2
   {
-    <b gis'>4 r r2
+    <b gis'>4\sfff r r2
     r1
-    <b gis'>4 r r2
+    <b gis'>4\sfff r r2
     \repeat unfold 3 r1
   }
   r1
-  <b gis'>4 r r2
+  <b gis'>4\sfff r r2
   r1
-  <b gis'>4 r r2
+  <b gis'>4\sfff r r2
   \repeat unfold 3 r1
   e4 g e g
   aes g e g
@@ -479,34 +479,34 @@ allegro_violin_b = \new Voice \relative c'
   \repeat unfold 4 r1
   \repeat unfold 2
   {
-    gis4 r r2
+    gis4\sfff r r2
     r1
-    gis4 r r2
+    gis4\sfff r r2
     \repeat unfold 3 r1
   }
   r1
-  gis4 r r2
+  gis4\sfff r r2
   r1
-  gis4 r r2
+  gis4\sfff r r2
   \repeat unfold 3 r1
-  g4 r r2
+  g4\sfff r r2
   r1
   r1
-  <g e'>4 r r2
+  <g e'>4\sfff r r2
   r1
   r
-  cis4 r r2
-  cis4 r r2
+  cis4\sfff r r2
+  cis4\sfff r r2
   \repeat unfold 3 r1
-  cis4 r r2
-  cis4 r r2
+  cis4\sfff r r2
+  cis4\sfff r r2
   r1
-  cis4 r r2
+  cis4\sfff r r2
   r1
   r
-  <b gis'>4 r r2
+  <b gis'>4\sfff r r2
   r1
-  <b gis'>4 r r2
+  <b gis'>4\sfff r r2
   \repeat unfold 4 r1
   {r2 c'4 r}
   \repeat unfold 4 {r2 c4 r}
@@ -718,21 +718,21 @@ allegro_viola = \new Voice \relative c'
   e r r2
   r1
   r
-  <e, g>4 r r2
+  <e, g>4\sfff r r2
   r1
   r
-  ais?4 r r2
-  ais4 r r2
+  ais?4\sfff r r2
+  ais4\sfff r r2
   \repeat unfold 3 r1
-  ais4 r r2
-  ais4 r r2
+  ais4\sfff r r2
+  ais4\sfff r r2
   r1
-  ais4 r r2
+  ais4\sfff r r2
   r1
   r
-  gis4 r r2
+  gis4\sfff r r2
   r1
-  gis4 r r2
+  gis4\sfff r r2
   \repeat unfold 4 r1
   r2 ais'4 r
   \repeat unfold 4 {r2 ais4 r}
@@ -935,36 +935,36 @@ allegro_cello = \new Voice \relative c
   r1
   <gis b>4\sfff r r2
   \repeat unfold 4 r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   \repeat unfold 3 r1
-  <a d>4 r r2
+  <a d>4\sfff r r2
   r1
-  <a d>4 r r2
+  <a d>4\sfff r r2
   \repeat unfold 4 r1
-  <a d>4 r r2
+  <a d>4\sfff r r2
   r1
-  <a d>4 r r2
+  <a d>4\sfff r r2
   \repeat unfold 3 r1
-  <e g>4 r r2
+  <e g>4\sfff r r2
   r1
   r
-  <e g>4 r r2
+  <e g>4\sfff r r2
   r1
   r
-  <gis! cis>4 r r2
-  <gis cis>4 r r2
+  <gis! cis>4\sfff r r2
+  <gis cis>4\sfff r r2
   \repeat unfold 3 r1
-  <gis cis>4 r r2
-  <gis cis>4 r r2
+  <gis cis>4\sfff r r2
+  <gis cis>4\sfff r r2
   r1
-  <gis cis>4 r r2
+  <gis cis>4\sfff r r2
   r1
   r
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   r1
-  <gis b>4 r r2
+  <gis b>4\sfff r r2
   \repeat unfold 4 r1
   \clef tenor
   r2 e''4 r
