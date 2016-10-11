@@ -50,26 +50,24 @@ allegro_violin_a = \new Voice \relative c''
   a ais b c
   ais? b c cis
   c cis d dis
-  e r e, r
-  \repeat unfold 6 {f' r e, r}
-  <e' g>4 <e g> r2
-  <e fis?>4 <e fis> r2
-  <e g>4 <e g> r2
-  <e fis>4 <e fis> r2
-  r2 fis,4 r
-  g' r fis, r
-  g' r fis, r
-  aes' r g, r
-  aes' r g, r
-  aes' r g, r
-  \repeat unfold 7 {aes' g, r2}
+  e r e,\downbow r
+  \repeat unfold 6 {f'\downbow r e,\downbow r}
+  <e' g>4-> <e g> r2
+  <e fis?>4-> <e fis> r2
+  <e g>4-> <e g> r2
+  <e fis>4-> <e fis> r2
+  r2 fis,4\downbow r
+  g'\downbow r fis,\downbow r
+  g'\downbow r fis,\downbow r
+  \repeat unfold 3 {aes'\downbow r g,\downbow r}
+  \repeat unfold 7 {aes'-> g, r2}
   gis!4 gis a a
   b b e? e
   gis, gis a a
   b b e e
-  f r r2
-  f4 r r2
-  f4 r r2
+  f-> r r2
+  f4-> r r2
+  f4-> r r2
   r4 d' ees c
   b r r2
   r4 d,, ees c
@@ -334,29 +332,27 @@ allegro_violin_b = \new Voice \relative c'
   r1
   b4\sfff r r2
   \repeat unfold 5 r1
-  r2 <b' e>4 r
-  \repeat unfold 6 {<b e> r <b e> r}
-  <e, g> <e g> r2
-  <e fis?>4 <e fis> r2
-  <e g>4 <e g> r2
-  <e fis>4 <e fis> r2
-  r <cis' fis>4 r
-  <cis fis> r <cis fis> r
-  <cis fis> r <cis fis> r
-  <d g> r <d g> r
-  <d g> r <d g> r
-  <d g> r <d g> r
-  \repeat unfold 7 {<d g> <d g> r2}
+  r2 <b' e>4\ff\downbow r
+  \repeat unfold 6 {<b e>\downbow r <b e>\downbow r}
+  <e, g>-> <e g> r2
+  <e fis?>4-> <e fis> r2
+  <e g>4-> <e g> r2
+  <e fis>4-> <e fis> r2
+  r <cis' fis>4\downbow r
+  <cis fis>\downbow r <cis fis>\downbow r
+  <cis fis>\downbow r <cis fis>\downbow r
+  \repeat unfold 3 {<d g>\downbow r <d g>\downbow r}
+  \repeat unfold 7 {<d g>-> <d g> r2}
   gis,!4 gis fisis fisis
   fis! fis eis eis
   gis gis fisis fisis
   fis! fis eis eis
-  e! r r2
-  e4 r r2
+  e!-> r r2
+  e4-> r r2
   r4 d' ees c
-  b r fis' r
-  g d ees c
-  b r a r
+  b r fis'-> r
+  g-> d ees c
+  b r a-> r
   ais! r b r
   r1
   r2 d
@@ -583,9 +579,9 @@ allegro_viola = \new Voice \relative c'
   r1
   gis4\sfff r r2
   \repeat unfold 3 r1
-  r2 gis
-  a fis
-  f4 r e f
+  r2 gis->\ff
+  a-> fis->
+  f4-> r e f
   g e f e
   aes g f e
   g f e f
@@ -606,16 +602,16 @@ allegro_viola = \new Voice \relative c'
   d2 b4 d
   ees2 d4 b
   d2 b4 c
-  d2 b4 d
+  d2-> b4 d
   ees2 d4 ees
   f g gis a
   \repeat unfold 4 {gis2 gis}
   r1
   r4 d ees c
   b r r2
-  r2 g'4 r
-  fes r g r
-  aes r g r
+  r2 g'4-> r
+  fes-> r g-> r
+  aes-> r g-> r
   g r g r
   b, d ees c
   b c d ees
@@ -813,9 +809,9 @@ allegro_cello = \new Voice \relative c
   r1
   <gis b>4\sfff r r2
   \repeat unfold 3 r1
-  r2 gis
-  a fis
-  f4 r e f
+  r2 gis->\ff
+  a-> fis->
+  f4-> r e f
   g e f e
   aes g f e
   g f e f
@@ -842,10 +838,10 @@ allegro_cello = \new Voice \relative c
   \repeat unfold 4 {gis2 gis}
   r4 d ees c
   b r r2
-  e'!4 r r2
-  r2 d4 r
-  ees r e r
-  f r r2
+  e'!4-> r r2
+  r2 d4-> r
+  ees-> r e-> r
+  f-> r r2
   r4 d, ees c
   b d ees c
   b c d ees
