@@ -153,30 +153,30 @@ allegro_violin_a = \new Voice \relative c''
   b r r2
   r1
   r
-  d''
+  d''\downbow_\markup{\italic{\bold ff espress.}}
   ees
   c
-  b2 aes'
-  aes aes
-  \tuplet 3/2 {aes4 beses aes} g2
-  \tuplet 3/2 {g4 aes g} fis2
-  b, g'
-  g g
-  \tuplet 3/2 {g4 aes g} fis2
-  \tuplet 3/2 {fis4 g fis} f2
+  b2( aes')-.
+  aes-. aes-.
+  \tuplet 3/2 {aes4( beses aes)} g2-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  b,( g')-.
+  g-. g-.
+  \tuplet 3/2 {g4( aes g)} fis2-.
+  \tuplet 3/2 {fis4( g fis)} f2-.
   r1
   d
   ees
   c
-  b2 f
+  b2( f)-.
   f f
-  \tuplet 3/2 {fis4 f fis} g2
-  \tuplet 3/2 {g4 fis g} aes2
-  aes d,
-  d d
-  \tuplet 3/2 {ees4 d ees} e2
-  \tuplet 3/2 {e4 dis e} f2
-  r cis,
+  \tuplet 3/2 {fis4( f fis)} g2-.
+  \tuplet 3/2 {g4( fis g)} aes2-.
+  aes( d,)-.
+  d-. d-.
+  \tuplet 3/2 {ees4( d ees)} e2
+  \tuplet 3/2 {e4( dis e)} f2-.
+  r cis,_\markup{\italic{espress.}}
   e gis
   g! bes
   d cis
@@ -413,36 +413,36 @@ allegro_violin_b = \new Voice \relative c'
   aes! a bes ces
   bes ces bes a
   aes! a bes ces
-  bes r g r
-  aes r g r
-  aes r a, r
-  bes r r2
+  bes r g\downbow r
+  aes\downbow r g\downbow r
+  aes\downbow r a,\downbow r
+  bes\downbow r r2
   r1
   r
-  d'
+  d'\downbow_\markup{\italic{\bold ff espress.}}
   ees
   c
-  b2 f'
-  f f
-  \tuplet 3/2 {f4 ges f} e2
-  \tuplet 3/2 {e4 f e} dis2
-  b e
-  e e
-  \tuplet 3/2 {e4 f e} dis2
-  \tuplet 3/2 {dis4 e dis} d2
+  b2( f')-.
+  f-. f-.
+  \tuplet 3/2 {f4( ges f)} e2-.
+  \tuplet 3/2 {e4( f e)} dis2-.
+  b( e)-.
+  e-. e-.
+  \tuplet 3/2 {e4( f e)} dis2-.
+  \tuplet 3/2 {dis4( e dis)} d2-.
   r1
   d
   ees
   c
-  b2 aes
-  aes aes
-  \tuplet 3/2 {g4 aes a} bes2
-  \tuplet 3/2 {aes!4 a bes} b2
-  b aes!
-  aes aes
-  \tuplet 3/2 {a4 aes a} bes!2
-  \tuplet 3/2 {bes4 a bes} b2
-  r cis,
+  b2( aes)-.
+  aes-. aes-.
+  \tuplet 3/2 {g4( aes a)} bes2-.
+  \tuplet 3/2 {aes!4( a bes)} b2-.
+  b( aes!)-.
+  aes-. aes-.
+  \tuplet 3/2 {a4( aes a)} bes!2
+  \tuplet 3/2 {bes4( a bes)} b2-.
+  r cis,_\markup{\italic{espress.}}
   cisis dis
   d! e
   f g
@@ -656,11 +656,11 @@ allegro_viola = \new Voice \relative c'
   r1
   \repeat unfold 4 {b4\downbow r ais\downbow r}
   r1
-  \repeat unfold 3 {ees4 r fes r}
-  r2 e4 r
-  f r e r
-  f r fis, r
-  g r r d'
+  \repeat unfold 3 {ees4\downbow r fes\downbow r}
+  r2 e4\downbow r
+  f\downbow r e\downbow r
+  f\downbow r fis,\downbow r
+  g\downbow r r d'
   \repeat unfold 25 {ees c b d}
   cis bis b ais
   b ais b bis
@@ -890,7 +890,7 @@ allegro_cello = \new Voice \relative c
   r
   \repeat unfold 4 {dis4\downbow r e\downbow r}
   r1
-  \repeat unfold 3 {des4 r d r}
+  \repeat unfold 3 {des4\downbow r d\downbow r}
   r1
   r4 d ees! c
   b r r2
