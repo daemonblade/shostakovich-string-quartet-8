@@ -15,8 +15,11 @@
   copyright = \markup { \char ##x00A9 "2016 Jonathan Chen" }
 }
 
+sfff = _\markup{\italic {\bold sfff}}
+
 \include "movement-1.ly"
 \include "movement-2.ly"
+\include "movement-3.ly"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -46,6 +49,16 @@
       \new Staff << \allegro_begin \allegro_cello >>
     >>
   }
+  \score
+  {
+    \new StaffGroup
+    <<
+      \new Staff << \allegretto_begin \allegretto_violin_a >>
+      \new Staff << \allegretto_begin \allegretto_violin_b >>
+      \new Staff << \allegretto_begin \allegretto_viola >>
+      \new Staff << \allegretto_begin \allegretto_cello >>
+    >>
+  }
 }
 
 \book
@@ -58,6 +71,10 @@
   \score
   {
     \new Staff << \allegro_begin \allegro_violin_a >>
+  }
+  \score
+  {
+    \new Staff << \allegretto_begin \allegretto_violin_a >>
   }
 }
 
@@ -72,6 +89,10 @@
   {
     \new Staff << \allegro_begin \allegro_violin_b >>
   }
+  \score
+  {
+    \new Staff << \allegretto_begin \allegretto_violin_b >>
+  }
 }
 
 \book
@@ -85,6 +106,10 @@
   {
     \new Staff << \allegro_begin \allegro_viola >>
   }
+  \score
+  {
+    \new Staff << \allegretto_begin \allegretto_viola_b >>
+  }
 }
 
 \book
@@ -97,5 +122,9 @@
   \score
   {
     \new Staff << \allegro_begin \allegro_cello >>
+  }
+  \score
+  {
+    \new Staff << \allegretto_begin \allegretto_cello >>
   }
 }

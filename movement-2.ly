@@ -6,8 +6,6 @@
 % style: indent 2 spaces, 80 cols, 1 bar/line
 %
 
-sfff = _\markup{\italic {\bold sfff}}
-
 allegro_begin =
 {
   \tempo "Allegro molto" 1 = 120
