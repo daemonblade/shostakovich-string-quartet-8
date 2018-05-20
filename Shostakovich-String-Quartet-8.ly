@@ -108,7 +108,7 @@ sfff = _\markup{\italic {\bold sfff}}
   }
   \score
   {
-    \new Staff << \allegretto_begin \allegretto_viola_b >>
+    \new Staff << \allegretto_begin \allegretto_viola >>
   }
 }
 
